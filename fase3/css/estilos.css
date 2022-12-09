@@ -1,0 +1,118 @@
+/*menu*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+nav > ul{
+    background: rgb(11, 116, 116);
+    display: table;
+    width: 100%;
+}
+nav li{
+    line-height: 3rem;
+}
+nav li li {
+    background: rgb(0, 0, 0);
+}
+nav a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4s;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, .5);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+section{
+    grid-column: 1/2;
+}
+aside{
+    grid-column: 2/3;
+}
+.menu li{
+    display: inline-block;
+}
+li a, menu{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+
+.listadesplegable{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+.listadesplegable2{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton2:hover .listadesplegable2{
+    display: block;
+    
+}
+
+.listadesplegable3{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton3:hover .listadesplegable3{
+    display: block;
+}
+
+/*Diseño secciones*/
+
+h1 {
+    background-color:rgb(55, 54, 161);
+    color: white;
+    text-align: center;
+    width: 1410px;
+    height: 50px;
+}
+#li{
+
+     color: Purple;
+
+}
+
+.titulo2{
+    background-color:rgb(55, 54, 161);
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 1410px;
+    height: 50px;
+    border: thin solid #000000;
+
+}
+.contenedores{
+
+    background-color:FAF57A;
+    padding: 30px;
+   display: grid;
+   
+}
+
+.Informacion{
+
+    margin: auto;
+    color: black;
+    text-align: center;
+    background-color:white;
+    width: 400px;
+    height: 300px;
+    
+}
